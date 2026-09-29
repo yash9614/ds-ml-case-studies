@@ -14,6 +14,12 @@ Amazon retail transactions with suspected duplicate records.
 
 Path: [data-exploration/01-resolving-duplicate-transactions](data-exploration/01-resolving-duplicate-transactions)
 
+### 02 — Beer Data Analysis
+
+Rank breweries, years, rating factors, recommendations, and styles.
+
+Path: [data-exploration/02-beer-data-analysis](data-exploration/02-beer-data-analysis)
+
 ## Setup
 
 ```text
@@ -24,14 +30,5 @@ jupyter notebook
 ```
 
 ## Tools
+
 Python, pandas, NLTK (VADER), Jupyter, uv
-
-
-In the **root** `README.md`, add this under Case studies (below the duplicate-transactions bullet):
-
-```markdown
-### 02 — Beer Data Analysis
-
-Rank breweries, years, rating factors, recommendations, and styles.
-
-Path: [data-exploration/02-beer-data-analysis](data-exploration/02-beer-data-analysis)
