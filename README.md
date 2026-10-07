@@ -1,6 +1,6 @@
 # DS / ML Case Studies
 
-Portfolio of data science case studies. Each numbered folder has a write-up. Notebooks live in the folder when they were added that way; two older notebooks still sit under `data-exploration/` and are linked from 04 and 05.
+Portfolio of data science case studies. Each numbered folder has a write-up and a notebook.
 
 ## Case studies
 
@@ -35,15 +35,22 @@ Path: [data-exploration/03-driver-lifetime-value](data-exploration/03-driver-lif
 
 SSA 1910–2021: all-time popular names, gender-ambiguous names, share swings vs the 1980s.
 
-Path: [data-exploration/04-baby-names](data-exploration/04-baby-names)  
-Notebook: [data-exploration/baby-names-project.ipynb](data-exploration/baby-names-project.ipynb)
+- 6.31M rows, 51 state files
+- James 5.05M all-time; Mary leads girls
+- Ambiguity is a ratio with a volume floor: Nikita in 2013, Lavern in 1945
+- Share-change misses debuts (Harper, Sawyer) and names that die out
 
-### 05 — Churn model
+Path: [data-exploration/04-baby-names](data-exploration/04-baby-names)
 
-Classification on a telecom-style churn table (notebook filename says Spotify).
+### 05 — Telecom churn model
 
-Path: [data-exploration/05-spotify-churn](data-exploration/05-spotify-churn)  
-Notebook: [data-exploration/spotify_churn_model_mlasssignment.ipynb](data-exploration/spotify_churn_model_mlasssignment.ipynb)
+Classification on a telecom churn table. The notebook filename used to say Spotify.
+
+- 3,333 customers, 14.5% churn
+- International plan and service calls separate churners before the model
+- XGBoost leads on PR-AUC 0.815 and class-1 F1 0.759; accuracy ties the forest and is the wrong metric
+
+Path: [data-exploration/05-spotify-churn](data-exploration/05-spotify-churn)
 
 ### 06 — Diversity clustering
 
