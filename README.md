@@ -45,6 +45,17 @@ Classification on a telecom-style churn table (notebook filename says Spotify).
 Path: [data-exploration/05-spotify-churn](data-exploration/05-spotify-churn)  
 Notebook: [data-exploration/spotify_churn_model_mlasssignment.ipynb](data-exploration/spotify_churn_model_mlasssignment.ipynb)
 
+### 06 — Diversity clustering
+
+US industry workforce composition, 2020–2023. Summary rows, not employee records. Sector and industry clustering on gender and race/ethnicity shares.
+
+- Scale errors repaired before any fit. Hispanic share overlaps race and is not renormalized.
+- Sector k = 2, silhouette 0.544: construction, agriculture, mining vs the rest. Split is composition, not gender.
+- Industry k = 3, silhouette 0.305: a high-Asian pocket and two overlapping groups (service/care, trades/property).
+- Questions on imbalance, year shift, dominance, and Simpson diversity are sorts, not models.
+
+Path: [data-exploration/06-diversity-clustering](data-exploration/06-diversity-clustering)
+
 ## Setup
 
 ```text
