@@ -75,6 +75,17 @@ Customer profiling for AeroFit treadmills (KP281, KP481, KP781) using EDA, conti
 
 Path: [data-exploration/07-aerofit-treadmill-buyer-profile](data-exploration/07-aerofit-treadmill-buyer-profile)
 
+### 08 — Adult Income Classification
+
+UCI Adult / OpenML adult: predict income >50K from 1994 US Census features.
+
+- ~48,842 rows, ~24% >50K
+- Compared Logistic Regression, Decision Tree, Random Forest, Linear SVM, GaussianNB
+- Random Forest best (CV F1 ~0.689, ROC-AUC ~0.915)
+- Leakage-free Pipeline + ColumnTransformer; class_weight="balanced"
+
+Path: [data-exploration/08-adult-income-classification](data-exploration/08-adult-income-classification)
+
 ## Setup
 
 ```text
