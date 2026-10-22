@@ -86,6 +86,16 @@ UCI Adult / OpenML adult: predict income >50K from 1994 US Census features.
 
 Path: [data-exploration/08-adult-income-classification](data-exploration/08-adult-income-classification)
 
+### 09 — Hospitality Analysis (AtliQ Grands)
+
+Hotel chain analysis: occupancy, revenue, weekday vs weekend patterns, and property performance.
+
+- Mumbai highest revenue
+- Higher weekend occupancy
+- Presidential rooms stronger; some properties underperform
+
+Path: [data-exploration/09-hospitality-analysis](data-exploration/09-hospitality-analysis)
+
 ## Setup
 
 ```text
