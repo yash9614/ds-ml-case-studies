@@ -63,6 +63,18 @@ US industry workforce composition, 2020–2023. Summary rows, not employee recor
 
 Path: [data-exploration/06-diversity-clustering](data-exploration/06-diversity-clustering)
 
+### 07 — AeroFit Treadmill Buyer Profile
+
+Customer profiling for AeroFit treadmills (KP281, KP481, KP781) using EDA, contingency tables, and conditional probability.
+
+- 180 buyers, 9 features, 0 missing values
+- Mix: KP281 44.4% · KP481 33.3% · KP781 22.2%
+- P(Male | KP781) = 82.5%; P(KP781 | Female) = 9.2%
+- KP781 buyers have higher fitness, income, usage, and expected miles
+- Age and marital status are weak splitters
+
+Path: [data-exploration/07-aerofit-treadmill-buyer-profile](data-exploration/07-aerofit-treadmill-buyer-profile)
+
 ## Setup
 
 ```text
