@@ -100,10 +100,10 @@ Path: [data-exploration/09-hospitality-analysis](data-exploration/09-hospitality
 
 StrataScratch e-commerce case: predict laptop buy-now price from specifications.
 
-- Dropped incomplete rows + multi-hot list features + resolution split
-- Iterative VIF filtering (VIF > 20 removed)
-- Weighted Voting Regressor (GradientBoosting + ExtraTrees + RandomForest) → ~505 test RMSE
-- Diagnostic plots: correlation heatmap, predicted-vs-actual, feature importance
+- Integrity checks + Pipeline with `OneHotEncoder(handle_unknown="ignore")`
+- 5-fold CV mean ± std for model selection
+- Weighted Voting Regressor; exact test RMSE depends on dropna vs imputation path
+- Permutation importance (grouped) + predicted-vs-actual plots
 
 Path: [data-exploration/10-laptop-price-prediction](data-exploration/10-laptop-price-prediction)
 
