@@ -98,12 +98,13 @@ Path: [data-exploration/09-hospitality-analysis](data-exploration/09-hospitality
 
 ### 10 — Laptop Price Prediction
 
-StrataScratch e-commerce case: predict laptop buy-now price from specifications.
+StrataScratch e-commerce case: predict laptop buy-now price.
 
-- Integrity checks + Pipeline with `OneHotEncoder(handle_unknown="ignore")`
+- Pipeline + `OneHotEncoder(handle_unknown="ignore")`; vocab from train only
 - 5-fold CV mean ± std for model selection
-- Weighted Voting Regressor; exact test RMSE depends on dropna vs imputation path
-- Permutation importance (grouped) + predicted-vs-actual plots
+- Mean-predictor baseline + MAE/MAPE
+- Permutation importance grouped by parent feature
+- Does not claim iterative VIF or a fixed ~505 RMSE
 
 Path: [data-exploration/10-laptop-price-prediction](data-exploration/10-laptop-price-prediction)
 
