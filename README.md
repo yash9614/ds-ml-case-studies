@@ -96,6 +96,17 @@ Hotel chain analysis: occupancy, revenue, weekday vs weekend patterns, and prope
 
 Path: [data-exploration/09-hospitality-analysis](data-exploration/09-hospitality-analysis)
 
+### 10 — Laptop Price Prediction
+
+StrataScratch e-commerce case: predict laptop buy-now price from specifications.
+
+- Dropped incomplete rows + multi-hot list features + resolution split
+- Iterative VIF filtering (VIF > 20 removed)
+- Weighted Voting Regressor (GradientBoosting + ExtraTrees + RandomForest) → ~505 test RMSE
+- Diagnostic plots: correlation heatmap, predicted-vs-actual, feature importance
+
+Path: [data-exploration/10-laptop-price-prediction](data-exploration/10-laptop-price-prediction)
+
 ## Setup
 
 ```text
