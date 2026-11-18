@@ -108,6 +108,18 @@ StrataScratch e-commerce case: predict laptop buy-now price.
 
 Path: [data-exploration/10-laptop-price-prediction](data-exploration/10-laptop-price-prediction)
 
+### 11 — Hospitalization Hypothesis Testing (Apollo Hospitals)
+
+StrataScratch statistical inference case: regional patterns and drivers of hospitalization charges for COVID-19 patients.
+
+- 1,338 anonymized patients (age, sex, smoker, region, viral load, severity, charges)
+- ANOVA + chi-square for regional differences; OLS for charge drivers
+- Viral load differs strongly by region (p ≈ 0); charges differ modestly (p = 0.031)
+- Smoker is the dominant cost driver (+≈ ₹59k); model R² ≈ 0.66
+- StrataScratch score: 7.5/10 (strong; assumption checks noted as next improvement)
+
+Path: [data-exploration/11-hospitalization-hypothesis-testing](data-exploration/11-hospitalization-hypothesis-testing)
+
 ## Setup
 
 ```text
@@ -119,4 +131,4 @@ jupyter notebook
 
 ## Tools
 
-Python, pandas, scikit-learn, XGBoost, matplotlib, NLTK (VADER), Jupyter, uv
+Python, pandas, scikit-learn, XGBoost, matplotlib, NLTK (VADER), Jupyter, uv, scipy, statsmodels
